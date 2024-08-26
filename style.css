@@ -1,0 +1,59 @@
+.container{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color: hsl(187, 63%, 52%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .profil{
+    position: relative;
+    width: 18%;
+    height: 45%;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.container .profil .part1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(118, 223, 241);
+    width: 100%;
+    height: 38%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.container .profil .part1 img{
+    position: relative;
+    border-radius: 50%;
+    top: 45px;
+    border: 2px solid white;
+}
+.container .profil .part2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: hsl(0, 0%, 59%);
+    display: flex;
+    padding-top: 20%;
+}
+.container .profil .part2 span{
+    color: hsl(229, 23%, 23%);
+    font-weight: bold;
+}
+.container .profil .part2 .desc{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid hsl(0, 0%, 59%);
+    margin-top: 15px;
+    padding-top: 10px;
+}
